@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import XPrint from 'xprint'
-import 'xprint/dist/vue-print.css'
+import 'xprint/dist/vue-xprint.css'
 Vue.config.productionTip = false
 Vue.use(XPrint, {
   beforePrint() {
